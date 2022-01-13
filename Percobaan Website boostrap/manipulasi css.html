@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulasi css delam jquery</title>
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+
+<body>
+    <h1>CSS Function JQuery</h1>
+
+    <button class="tombol" id="tambah">Tambahkan CSS</button>
+    <div class="lingkaran"></div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#tambah').click(function () {
+            $('.lingkaran').css("background", "blue");
+        });
+
+    });
+</script>
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .lingkaran {
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        background: orange;
+        padding: 30px;
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .tombol {
+        color: #fff;
+        background: #232323;
+        border: none;
+        padding: 10px;
+    }
+</style>
+
+</html>

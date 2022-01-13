@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laman percobaan bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Malas Ngoding</a>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tentang</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tutorial
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Tutorial HTML</a>
+                <a class="dropdown-item" href="#">Tutorial CSS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tutorial Bootstrap</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link Mati</a>
+            </li>
+          </ul>
+    
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Cari" aria-label="Cari">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+          </form>
+       </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <p class="bg-danger text-white">This text represents danger.</p>
+    </div>
+
+    <div class="container">
+        <h2>Opacity Text Colors</h2>
+        <p>Add 50% opacity for black or white text with the .text-black-50 or .text-white-50 classes:</p>
+        <p class="text-black-50">Black text with 50% opacity on white background</p>
+        <p class="text-white-50 bg-dark">White text with 50% opacity on black background</p>
+    </div>
+    <div class="container text-center">
+      <h1>Opacity Text Colors</h1>
+  </div>
+      
+    <div class="card-transparent">
+        <div class="card-header">This is my header</div>
+        <div class="card-block special-card" style="background-color: rgba(245, 245, 245, 0.4); ">This is my block</div>
+        <div class="card-footer">This is my footer</div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">This is my header</div>
+        <div class="card-block">This is my block</div>
+        <div class="card-footer">This is my footer</div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">This is my header</div>
+        <div class="card-block special-card">This is my block</div>
+        <div class="card-footer">This is my footer</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5">HHHHHH</div>
+        <div class="col-md-5 col-md-offset-2">HHHHHHHH</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+           <div class="col-md-12">
+              Some Content.. 
+           </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="col-md-12">
+              Some Second Content.. 
+        </div>
+    </div>
+    
+    <div class="col-md-6 box">
+        <div class="inner">Hello</div>
+    </div>
+    <div class="col-md-6 box">
+        <div class="inner">Hello</div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-4 box">12</div>
+        <div class="col-xs-4 box">13</div>
+        <div class="col-xs-4 box">14</div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-7">
+            <div class="raised-block">
+                <h3>Facebook</h3>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="raised-block">
+                <h3>Tweets</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-5 pull-left">11</div>
+    <div class="col-md-5 pull-right">22</div>
+
+    <div class="container">
+        <div class="col-md-3 ">
+            <div class="col-md-12 well">
+                Some Content..
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="col-md-12 well">
+                Some Second Content..
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="col-md-12 well">
+                Some Second Content..
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="col-md-12 well">
+                Some Second Content..
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 form-group">kkkkkkkkk</div>
+    <div class="col-md-6 form-group">kkkkkkkk</div>
+
+    <div class="row mx-n5">
+        <div class="col px-5">
+          <div class="p-3 border bg-light">Custom column padding</div>
+        </div>
+        <div class="col px-5">
+          <div class="p-3 border bg-light">Custom column padding</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+           <div class="thumbnail">
+             <img src="image/mooncake.png"/>
+           </div>
+        </div>
+        <div class="col-md-4">
+           <div class="thumbnail">
+             <img src="image/mooncake.png"/>
+           </div>
+        </div>   
+    </div>
+
+    <div class="row">
+        <div id="orange" class="col-md-4">
+          <h1>Orange Div</h1>
+        </div>
+        <div id="green" class="col-md-4">
+          <h1>Green Div</h1>
+        </div>
+        <div id="aqua" class="col-md-4">
+          <h1>Aqua Div</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3" id="services_block">
+        c12
+        </div>
+        <div class="col-sm-3" id="services_block">
+         c13
+        </div>
+        <div class="col-sm-3" id="services_block">
+         c14
+        </div>
+        <div class="col-sm-3" id="services_block">
+         c15
+        </div>
+    </div>
+
+    <div class="row">
+         <div class="col-xs-3">
+            <div class="form-group">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-xs-3">
+             <div class="form-group">
+                    <label asp-for="LastName" class="control-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>            
+    </div>
+
+    <div class="container-fluid px-0">
+        <div class="row no-gutters">
+            <div class="col-sm-12 col-md mr-md-3" style="background-color: orange">
+                <p><strong>Column 1</strong></p>
+            </div>
+            <div class="col-sm-12 col-md ml-md-3" style="background-color: orange">
+                <p><strong>Column 1</strong></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-4">
+        <div class="list-item">
+            <h2>Your name</h2> 
+        </div>
+      </div>
+      <div class="col-md-4">
+         <div class="list-item">1111</div>
+    </div>
+
+    <div class="card mb-3 float-right" style="max-width: 400px;">
+  <div class="row g-0">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-12">
+      <div class="card-body">
+        <h5 class="card-title">so enjoy you're day with us ^-^ //</h5>
+        <p class="card-text">
+            <div class="col-md-2 float-right">
+                <div class="p-1 border bg-light">
+                  <a href="Cake list.html" class="btn btn-danger active">Preview --></a>
+                </div>
+            </div>
+        </p>
+        <p class="card-text"><small class="text-muted"></small></p>
+      </div>
+      </div>
+    </div>
+   </div>
+      
+    <style>
+        thumbnail{
+           padding:4px;
+        }
+
+        #orange {  
+        background-color:orange;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 2.5% 2.5% 0 2.5%;
+        width:30%;
+        }
+        #green {
+        background-color:green;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 2.5% 0 0 0;
+        width:30%;
+        }
+        #aqua {
+        background-color:#39F;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 2.5% 2.5% 0 2.5%;
+        width: 30%;
+        }
+
+        div#services_block {
+        height: 355px;
+        background-color: #33363a;
+        border-left:3px solid white;
+        border-right:3px solid white;
+        }
+
+        .form-group {
+        margin-right: -10px;
+        }
+
+        .list-item{
+        margin-right:-10px;
+        margin-top:10px;
+        margin-bottom: 10px;
+        border: 1px solid #eee;
+        padding: 0px;
+        }
+    </style>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
